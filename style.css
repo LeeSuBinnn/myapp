@@ -1,0 +1,111 @@
+/* font-family: 'Sacramento', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif; */
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 140px;
+    color: #dddddd;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #dddddd;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+hr{ 
+    clear: both;
+    width: 10%;
+    /* border: 8px dotted lightgray; */
+    border-style: none;
+    border-top: 8px dotted lightgray ;
+    /* border-top-width: 8px;
+    border-top-style:dotted;
+    border-top-color: lightgray; */
+}
+.container-top{
+    position: relative;
+    padding-top: 100px;
+    background-color: #314357;
+}
+
+.container-middle{
+    background-color: #c98c70;
+ 
+}
+
+.top-cloud{
+    position: absolute;/*원하는대로옮길수있음*/
+    top: 50px;
+    right: 300px;
+}
+.bottom-cloud{
+    position: absolute;/*원하는대로옮길수있음*/
+    left: 50px;
+    bottom: 300px;
+}
+.container-top h2 span{
+    text-decoration: underline;
+}
+.profile{
+    padding: 100px 0;
+    width: 30%;
+    margin: 0 auto;
+}
+.profile p{
+    line-height: 2;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    overflow: auto;/*사진 칸에 안벗어나고 들어오게*/
+  
+    
+}
+.skill-photo{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+
+}
+.hobby-photo{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skills{
+    padding-top: 100px;
+}
+
+.contact-me{
+    background-color: #314357;
+    padding-top: 6px;
+    color: #f8f3eb;
+ 
+} 
+.container-bottom{
+    background-color: #314357;
+    color: #dddddd;
+}
+
+.contact-me .btn{
+    background-color: #f8f3eb;
+    color: #314357;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
